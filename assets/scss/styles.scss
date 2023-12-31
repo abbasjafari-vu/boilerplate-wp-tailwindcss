@@ -1,0 +1,37 @@
+@import "tailwindcss/base";
+/*
+ * uncomment if adding custom base styles
+@import "./custom-base-styles.scss";
+*/
+
+@import "tailwindcss/components";
+/*
+ * uncomment if adding custom commponents
+@import "./custom-components.scss";
+*/
+
+@import "tailwindcss/utilities";
+/*
+ * uncomment if adding custom utilities
+@import "./custom-utilities.scss";
+*/
+
+@import "./woocommerce.scss";
+
+/* admin bar fix */
+body.admin-bar {
+    max-height: calc(100vh - 32px);
+}
+
+.main-navigation {
+    @apply flex gap-5 py-4;
+    ul {
+        @apply flex gap-5;
+    }
+}
+
+#primary {
+    .products {
+        @apply grid grid-cols-5 p-20;
+    }
+}

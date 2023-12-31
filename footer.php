@@ -1,11 +1,36 @@
-    </main>
+<?php
 
-    <footer class="flex-0 bg-slate-100 px-4 py-2">
-        <div class="container mx-auto text-center">
-            <p class="text-xs">Currently in <strong><?php echo (IS_VITE_DEVELOPMENT) ? "development" : "production" ?></strong> mode.</p>
-        </div>
-    </footer>
+/**
+ * The template for displaying the footer
+ *
+ * Contains the closing of the #content div and all content after.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package AbbasJafari
+ */
 
-<?php wp_footer() ?>
+?>
+
+<footer id="colophon" class="site-footer">
+	<div class="site-info">
+		<a href="<?php echo esc_url(__('https://wordpress.org/', 'abbasjafari')); ?>">
+			<?php
+			/* translators: %s: CMS name, i.e. WordPress. */
+			printf(esc_html__('Proudly powered by %s', 'abbasjafari'), 'WordPress');
+			?>
+		</a>
+		<span class="sep"> | </span>
+		<?php
+		/* translators: 1: Theme name, 2: Theme author. */
+		printf(esc_html__('Theme: %1$s by %2$s.', 'abbasjafari'), 'abbasjafari', '<a href="http://abbasjafaris.me/">Abbas Jafari</a>');
+		?>
+	</div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
 </body>
+
 </html>

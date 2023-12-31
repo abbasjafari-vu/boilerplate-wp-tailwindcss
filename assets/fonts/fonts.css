@@ -1,0 +1,32 @@
+@import "./icons/style.css";
+
+@font-face {
+    font-family: iransans;
+    src: url("./iransans/IRANSansWeb(FaNum).ttf");
+}
+@font-face {
+    font-family: iransans;
+    src: url("./iransans/ttf/IRANSansWeb_UltraLight.ttf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: iransans;
+    src: url("./iransans/ttf/IRANSansWeb_Light.ttf");
+    font-weight: 300;
+}
+@font-face {
+    font-family: iransans;
+    src: url("./iransans/ttf/IRANSansWeb.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: iransans;
+    src: url("./iransans/ttf/IRANSansWeb_Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: iransans;
+    src: url("./iransans/ttf/IRANSansWeb_Bold.ttf");
+    font-weight: 700;
+}

@@ -59,8 +59,3 @@ function abbasjafari_customize_partial_blogdescription()
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function abbasjafari_customize_preview_js()
-{
-	wp_enqueue_script('abbasjafari-customizer', get_template_directory_uri() . '/js/customizer.js', array('customize-preview'), _AJ_VERSION, true);
-}
-add_action('customize_preview_init', 'abbasjafari_customize_preview_js');

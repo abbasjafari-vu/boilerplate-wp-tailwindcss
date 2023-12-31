@@ -1,9 +1,61 @@
 {
+  "assets/fonts/icons/fonts/cheftak.eot": {
+    "file": "assets/cheftak-VUrWELOe.eot",
+    "src": "assets/fonts/icons/fonts/cheftak.eot"
+  },
+  "assets/fonts/icons/fonts/cheftak.svg": {
+    "file": "assets/cheftak-t9bXwYID.svg",
+    "src": "assets/fonts/icons/fonts/cheftak.svg"
+  },
+  "assets/fonts/icons/fonts/cheftak.ttf": {
+    "file": "assets/cheftak-NABWRRQJ.ttf",
+    "src": "assets/fonts/icons/fonts/cheftak.ttf"
+  },
+  "assets/fonts/icons/fonts/cheftak.woff": {
+    "file": "assets/cheftak-6hX1nVkT.woff",
+    "src": "assets/fonts/icons/fonts/cheftak.woff"
+  },
+  "assets/fonts/iransans/IRANSansWeb(FaNum).ttf": {
+    "file": "assets/IRANSansWeb(FaNum)-no3aE2zb.ttf",
+    "src": "assets/fonts/iransans/IRANSansWeb(FaNum).ttf"
+  },
+  "assets/fonts/iransans/ttf/IRANSansWeb.ttf": {
+    "file": "assets/IRANSansWeb-tfCHp338.ttf",
+    "src": "assets/fonts/iransans/ttf/IRANSansWeb.ttf"
+  },
+  "assets/fonts/iransans/ttf/IRANSansWeb_Bold.ttf": {
+    "file": "assets/IRANSansWeb_Bold-n9bxUABo.ttf",
+    "src": "assets/fonts/iransans/ttf/IRANSansWeb_Bold.ttf"
+  },
+  "assets/fonts/iransans/ttf/IRANSansWeb_Light.ttf": {
+    "file": "assets/IRANSansWeb_Light-SMz7DT_7.ttf",
+    "src": "assets/fonts/iransans/ttf/IRANSansWeb_Light.ttf"
+  },
+  "assets/fonts/iransans/ttf/IRANSansWeb_Medium.ttf": {
+    "file": "assets/IRANSansWeb_Medium-bgjq3gsq.ttf",
+    "src": "assets/fonts/iransans/ttf/IRANSansWeb_Medium.ttf"
+  },
+  "assets/fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf": {
+    "file": "assets/IRANSansWeb_UltraLight-3jss5xNs.ttf",
+    "src": "assets/fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf"
+  },
   "main.js": {
-    "css": [
-      "assets/main-BYCPIiem.css"
+    "assets": [
+      "assets/cheftak-VUrWELOe.eot",
+      "assets/cheftak-NABWRRQJ.ttf",
+      "assets/cheftak-6hX1nVkT.woff",
+      "assets/cheftak-t9bXwYID.svg",
+      "assets/IRANSansWeb(FaNum)-no3aE2zb.ttf",
+      "assets/IRANSansWeb_UltraLight-3jss5xNs.ttf",
+      "assets/IRANSansWeb_Light-SMz7DT_7.ttf",
+      "assets/IRANSansWeb-tfCHp338.ttf",
+      "assets/IRANSansWeb_Medium-bgjq3gsq.ttf",
+      "assets/IRANSansWeb_Bold-n9bxUABo.ttf"
     ],
-    "file": "assets/main-NyMx7Y2-.js",
+    "css": [
+      "assets/main-hy_aSFZS.css"
+    ],
+    "file": "assets/main-cNfZ19T8.js",
     "isEntry": true,
     "src": "main.js"
   }
